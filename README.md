@@ -1,3 +1,23 @@
+---
+title: "Awesome Molecular Learning"
+tags: ""
+---
+
+### Chem Reaction Knowledge Graph  
+1. Prediction of Compound Synthesis Accessibility Based on Reaction Knowledge Graph, Baiqing Li and Hongming Chen, Molecular 2022
+
+# Meta Learning
+1. Meta-Learning-based Deep Reinforcement Learning for Multiobjective Optimization Problems
+
+# Multi-modal
+1.  M. Skalic, D. Sabbadin, B. Sattarov, S. Sciabola, and G. De Fabritiis. From target to drug: Generative modeling for the multimodal structure-based ligand design. Molecular pharmaceutics, 16(10):4282–4291, 2019.
+
+
+# Property Prediction
+1. 
+
+# Generation
+
 # Awesome Small Molecule Machine Learning [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 A curated list of awesome papers, data sets, frameworks, packages, blogs, and other resources related to machine learning for small-molecule drug discovery. Please [contribute](CONTRIBUTING.md)!
@@ -7,6 +27,7 @@ A curated list of awesome papers, data sets, frameworks, packages, blogs, and ot
 
 * [Papers](#papers)
     * [Survey papers and books](#papers-surveys)
+    * [Meta Learning](#meta-learning)
     * [Representation, transfer, and few-shot learning](#papers-representation)
     * [Generative algorithms](#papers-generative-algorithms)
     * [Hit finding and potency prediciton](#papers-hit-finding)
@@ -32,6 +53,10 @@ A curated list of awesome papers, data sets, frameworks, packages, blogs, and ot
 * Walters and Barzilay, 2020. [Applications of Deep Learning in Molecule Generation and Molecular Property Prediction](https://pubs.acs.org/doi/10.1021/acs.accounts.0c00699).
 * Cai et al, 2020. [Transfer Learning for Drug Discovery](https://doi.org/10.1021/acs.jmedchem.9b02147).
 
+<a id="meta-learning"></a>
+### Meta Learning
+
+* Shuangjia Zheng et al, 2021. [Meta Learning for Low Resource Molecular Optimization](https://pubs.acs.org/doi/10.1021/acs.jcim.0c01416#:~:text=By%20using%20a%20set%20of%20meta%20tasks%20with,large-scale%20bioactivity%20data%20set%20with%20diverse%20target%20variations.) [[Code](https://github.com/wplus1107/Meta-MO)
 
 <a id="papers-representation"></a>
 ### Representation, transfer learning, and few-shot learning
@@ -56,6 +81,7 @@ A curated list of awesome papers, data sets, frameworks, packages, blogs, and ot
 ### Generative algorithms
 
 * Bengio et al, 2021. [Flow Network based Generative Models for Non-Iterative Diverse Candidate Generation](https://arxiv.org/abs/2106.04399). [[Code](https://github.com/bengioe/gflownet)]
+* Bengio et al, 2020. [Learning to Navigate The Synthetically Accessible Chemical Space Using Reinforcement Learning](https://arxiv.org/pdf/2004.12485.pdf). [[Code](https://github.com/99andBeyond/Apollo1060)]
 * Berenger and Tsuda, 2021. [Molecular generation by Fast Assembly of (Deep)SMILES fragments](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00566-4). [[Code](https://github.com/UnixJunkie/FASMIFRA)]
 * Gao et al, 2021. [Amortized Tree Generation for Bottom-up Synthesis Planning and Synthesizable Molecular Design](https://arxiv.org/abs/2110.06389). [[Code](https://github.com/wenhao-gao/SynNet)]
 * Takeuchi et al, 2021. [R-group replacement database for medicinal chemistry](https://www.future-science.com/doi/10.2144/fsoa-2021-0062).
@@ -67,6 +93,8 @@ A curated list of awesome papers, data sets, frameworks, packages, blogs, and ot
 ](https://arxiv.org/abs/1905.13372).
 * You et al, 2019. [Graph Convolutional Policy Network for Goal-Directed Molecular Graph Generation](https://arxiv.org/abs/1806.02473). [[Code](https://github.com/bowenliu16/rl_graph_generation)]
 * Zhou et al, 2019. [Optimization of Molecules via Deep Reinforcement Learning](https://doi.org/10.1038/s41598-019-47148-x). [[Code (official version)](https://github.com/google-research/google-research/tree/master/mol_dqn)] [[PyTorch implementation](https://github.com/aksub99/MolDQN-pytorch)]
+*  R. Winter, [Efficient multi-objective molecular optimization in a continuous latent space](https://pubs.rsc.org/en/content/articlelanding/2019/sc/c9sc01928f#!). [[Code None]()]
+
 * Jin et al, 2018. [Junction Tree Variational Autoencoder for Molecular Graph Generation](https://arxiv.org/abs/1802.04364). [[Code](https://github.com/wengong-jin/icml18-jtnn)]
 * Merk et al, 2018. [De Novo Design of Bioactive Small Molecules by Artificial Intelligence](https://pubmed.ncbi.nlm.nih.gov/29319225/).
 
@@ -144,6 +172,7 @@ A curated list of awesome papers, data sets, frameworks, packages, blogs, and ot
 * [rd_filters](https://github.com/PatWalters/rd_filters)
 * [Small-World Search](https://sw.docking.org/search.html)
 * [TorchDrug](https://torchdrug.ai/)
+* [RDKit](https://github.com/rdkit/rdkit/releases/tag/Release_2016_09_4)
 
 
 ## Blogs
